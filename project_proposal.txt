@@ -1,0 +1,3 @@
+Project Proposal.
+
+Compare data from Income Classses and deaths from injury per country.
