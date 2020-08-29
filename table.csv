@@ -1,0 +1,10 @@
+﻿Table,Column,Description,Type
+Country,country_code,"The Krimary Key for this table, a code for each country.",varchar
+Country,country_name,The name of the country.,varchar
+Country,region,The region of the world the country belongs to.,varchar
+Injury,ID,The Primary Key,integer
+Injury,country_code,The Foreign Key of Country table,varchar
+Injury,Average_per,"Average of deaths by injury for 2000, 2010, 2015 and 2016.",integer
+non_comm,ID,The Primary Key,integer
+non_comm,country_code,The Foreign Key of Country table,varchar
+non_comm,Average_per,"Average of deaths by non communicable diceases for 2000, 2010, 2015 and 2016.",integer
